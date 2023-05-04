@@ -1,71 +1,84 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
+
+.header {
     height: 16%;
     background-color: rgb(94, 252, 199);
     position: fixed;
     width: 100%;
 }
-.mainlogo{
+
+.mainlogo {
     margin-left: 35px;
     position: absolute;
     height: 160px;
     width: 175px;
     border-radius: 100%;
 }
-.mainhead{
+
+.mainhead {
     font-size: 26px;
     color: rgb(55, 5, 235);
     font-weight: 600;
-    font-family:cursive;
+    font-family: cursive;
     margin-top: 5%;
     margin-left: 16%;
     position: absolute;
 }
-.nav1{
+
+.nav1 {
     margin-left: 72%;
 }
-.nav1 ul{
+
+.nav1 ul {
     display: flex;
     text-decoration: none;
     list-style: none;
 }
-.nav1 li{
+
+.nav1 li {
     margin: 20px;
     text-decoration: none;
 }
-nav{
+
+nav {
     margin-top: -1%;
     margin-left: 47%;
 }
-nav ul{
+
+nav ul {
     display: flex;
     text-decoration: none;
     list-style: none;
 }
-.navi{
+
+.navi {
     text-decoration: none;
     color: black;
     margin: 20px;
 }
-.navi:hover{
+
+.navi:hover {
     text-decoration: none;
     color: rgb(248, 11, 11);
     margin: 20px;
     font-size: 18px;
 }
-.nav3{
+
+.nav3 {
     position: absolute;
-    right: 30px;  
+    right: 30px;
     margin-top: -1%;
 }
-.insta{
+
+.insta {
     height: 30px;
     width: 30px;
 }
-.container{
+
+.container {
     margin-top: 11%;
     margin-left: 3%;
     position: absolute;
@@ -74,31 +87,33 @@ nav ul{
     width: 76%;
     overflow: auto;
 }
-.box{
+
+.box {
     background-color: rgb(192, 209, 192);
-    width:auto;
+    width: auto;
     margin: 5px 5px 5px 5px;
     height: 45%;
     display: flex;
-  
+
 }
 
-.lable{
+.lable {
     color: rgb(255, 0, 0);
     font-weight: 900;
     font-size: 18px;
 }
 
 
-table{
+table {
     /* border: 1px solid black; */
 }
-.imagesview{
+
+.imagesview {
     height: 70%;
     width: 70%;
 }
 
-.mybutton{
+.mybutton {
     width: 100px;
     border-radius: 10%;
     background-color: rgb(41, 197, 145);
@@ -107,7 +122,7 @@ table{
     font-size: 15px;
 }
 
-#billingbox{
+#billingbox {
     margin-top: 11%;
     margin-left: 80%;
     position: absolute;
@@ -115,7 +130,8 @@ table{
     height: 68%;
     width: 18%;
 }
-.heading{
+
+.heading {
     width: 100%;
     text-align: center;
     background-color: rgb(94, 252, 199);
@@ -123,6 +139,7 @@ table{
     font-size: 18px;
     padding-top: 2%;
 }
+
 .footer {
     position: fixed;
     left: 0;
@@ -132,29 +149,37 @@ table{
     background-color: rgb(94, 252, 199);
     color: rgb(3, 3, 3);
     text-align: center;
-  }
-  .shop{
+}
+
+.shop {
     display: none;
     height: 10%;
     width: 10%;
-  }
+}
 
-.maincont{
-   display: none;
-}
-#billbox{
-    display: none;
-}
-#qrcode{
-    display: none;
-}
-#final{
-    display:none;
-}
-.data{
+.maincont {
     display: none;
 }
 
+#billbox {
+    display: none;
+}
+
+#qrcode {
+    display: none;
+}
+
+#final {
+    display: none;
+}
+
+.data {
+    display: none;
+}
+
+#optionss {
+    display: none;
+}
 
 
 
@@ -168,133 +193,148 @@ table{
 
 
 
-  @media screen and (max-width: 800px) {
-    .header{
+@media screen and (max-width: 800px) {
+    .header {
         height: 11%;
         background-color: rgb(94, 252, 199);
         position: fixed;
         width: 100%;
         margin-bottom: 120px;
     }
-    .mainlogo{
+
+    .mainlogo {
         margin-left: 7%;
-        position: absolute; 
+        position: absolute;
         height: 135%;
         width: 25%;
         margin-top: 2%;
         border-radius: 100%;
     }
-    .box{
+
+    .box {
         display: none;
     }
-    .img1{
+
+    .img1 {
         height: 20%;
         width: 20%;
         margin-right: 5px;
         margin-bottom: 0px;
     }
-   
-    .maincont{
+
+    .maincont {
         display: block;
         margin-top: 3%;
         text-align: center;
         flex-direction: row;
-       
-      }
-      #billbox{
+
+    }
+
+    #billbox {
         height: 80%;
         display: inline-block;
-        position:sticky;
+        position: sticky;
         width: 80%;
         margin: 0px;
         padding: 0px;
         background-color: aqua;
         border: 1px solid black;
-      }
-    .box1{
+    }
+
+    .box1 {
         display: inline-flex;
         width: 88%;
         height: 20%;
         padding: 10px;
         text-align: left;
         background-color: rgb(220, 230, 230);
-        margin:2%;
+        margin: 2%;
         margin-bottom: 0px;
     }
-   
-    .mainhead{
+
+    .mainhead {
         font-size: 18px;
         color: rgb(55, 5, 235);
         font-weight: 600;
-        font-family:cursive;
+        font-family: cursive;
         margin-top: 10%;
         margin-left: 32%;
         position: absolute;
     }
-    .nav1{
+
+    .nav1 {
         display: none;
     }
-    .nav1 ul{
+
+    .nav1 ul {
         display: none;
     }
-    .nav1 li{
+
+    .nav1 li {
         display: none;
     }
-    nav{
+
+    nav {
         display: none;
     }
-    nav ul{
+
+    nav ul {
         display: none;
     }
-    .navi{
+
+    .navi {
         display: none;
     }
-    .navi:hover{
+
+    .navi:hover {
         display: none;
     }
-    .nav3{
-       
-    }
-    .number{
+
+    .nav3 {}
+
+    .number {
         display: none;
     }
-    .insta{
+
+    .insta {
         display: none;
     }
-    .container{
+
+    .container {
         margin-top: 18%;
         position: absolute;
-      height: 80%;
-      width: 95%;
+        height: 80%;
+        width: 95%;
     }
-    
-    .lable{
-       
+
+    .lable1 {
+        margin-top: 3%;
+        padding: 1%;
+        background-color: #aaaaaa;
     }
-    
-    
-    table{
-       
-    }
-    .imagesview{
-    
-    }
-    
-    .mybutton{
+
+
+    table {}
+
+    .imagesview {}
+
+    .mybutton {
         position: absolute;
         right: 5%;
         height: 28px;
         width: 17%;
         margin-top: 30px;
-        
+
     }
-    
-    #billingbox{
+
+    #billingbox {
         display: none;
     }
-    .heading{
+
+    .heading {
         display: none;
     }
+
     .footer {
         position: fixed;
         left: 0;
@@ -304,71 +344,117 @@ table{
         background-color: rgb(94, 252, 199);
         color: rgb(3, 3, 3);
         text-align: center;
-      }
-      .shop{
+    }
+
+    .shop {
         visibility: visible;
-        display:block;
+        display: block;
         position: fixed;
         right: 1.9%;
         top: 3.9%;
         height: 4%;
         width: 5.5%;
-      }
+    }
 
 
-      .modal {
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 30px; /* Location of the box */
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 30px;
+        /* Location of the box */
         left: 0;
         top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-      }
-      
-      /* Modal Content */
-      .modal-content {
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
         background-color: #fefefe;
         margin: auto;
         padding: 20px;
         border: 1px solid #888;
         width: 80%;
-      }
-      
-      /* The Close Button */
-      .close {
+    }
+
+    /* The Close Button */
+    .close {
         color: #aaaaaa;
         float: right;
         font-size: 28px;
         font-weight: bold;
-      }
-      
-      .close:hover,
-      .close:focus {
+    }
+
+    .close:hover,
+    .close:focus {
         color: #000;
         text-decoration: none;
         cursor: pointer;
-      }
-      #qrcode{
-        display:none;
     }
-    #final{
-        display:none;
-    }
-    .data{
+
+    #qrcode {
         display: none;
+    }
+
+    .data {
+        display: none;
+    }
+
+    .mybutton2 {
+        background-color: rgb(94, 252, 199);
+        color: darkblue;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    #optionss {
+        display: none;
+        background-color: green;
+    }
+
+    #cashoronline {
+        display: none;
+
+    }
+
+    #qrcodeimage {
+        display: none;
+    }
+
+    #notempty {}
+    .jump
+    {
+        margin-top: 18%;
+        position:absolute;
+        margin-bottom: 0%;
+        display: flex;
+        padding: 10px;
+    }
+    .box11{
+        width: auto;
+        padding: 8px;
+        margin: 4px;
+
     }
 }
 
 
 @media screen and (max-width: 450px) {
-    .container{
+    .container {
         margin-top: 30%;
-         width: 95%;
+        width: 95%;
     }
-    
-    }
+
+}
