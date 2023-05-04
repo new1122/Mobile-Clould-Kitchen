@@ -301,9 +301,8 @@ table {
     }
 
     .container {
-        margin-top: 18%;
         position: absolute;
-        height: 80%;
+        height: 79%;
         width: 95%;
     }
 
@@ -436,7 +435,7 @@ table {
     #notempty {}
     .jump
     {
-        margin-top: 18%;
+        margin-top: 20%;
         position:absolute;
         margin-bottom: 0%;
         display: flex;
@@ -453,7 +452,7 @@ table {
 
 @media screen and (max-width: 450px) {
     .container {
-        margin-top: 30%;
+        margin-top: 32.5%;
         width: 95%;
     }
 
