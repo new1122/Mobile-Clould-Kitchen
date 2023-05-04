@@ -19,9 +19,9 @@
 }
 
 .mainhead {
-    font-size: 26px;
+    font-size: 28px;
     color: rgb(55, 5, 235);
-    font-weight: 600;
+    font-weight: 800;
     font-family: cursive;
     margin-top: 5%;
     margin-left: 16%;
@@ -203,10 +203,10 @@ table {
     }
 
     .mainlogo {
-        margin-left: 7%;
+        margin-left: 6%;
         position: absolute;
-        height: 135%;
-        width: 25%;
+        height: 133%;
+        width: 29%;
         margin-top: 2%;
         border-radius: 100%;
     }
@@ -253,9 +253,9 @@ table {
     }
 
     .mainhead {
-        font-size: 18px;
+        font-size: 20px;
         color: rgb(55, 5, 235);
-        font-weight: 600;
+        font-weight: 800;
         font-family: cursive;
         margin-top: 10%;
         margin-left: 32%;
@@ -351,8 +351,8 @@ table {
         position: fixed;
         right: 1.9%;
         top: 3.9%;
-        height: 4%;
-        width: 5.5%;
+        height: 4.5%;
+        width: 7.1%;
     }
 
 
